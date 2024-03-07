@@ -30,18 +30,18 @@ export default function Home() {
         </div>
         <div className=" flex max-md:flex-col justify-center items-center gap-4">
           <div className=" space-y-[15px] sm:space-y-[25px] md:space-y-[30px] lg:space-y-[35px] 2xl:space-y-[70px] ">
-            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm xl:text-md 2xl:text-xl">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs xl:text-md 2xl:text-xl">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
-            <p className=" opacity-50 text-xs lg:text-sm 2xl:text-xl ">
+            <p className=" opacity-50 text-xs lg:text-xs 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs 2xl:text-xl xl:w-[70%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs 2xl:text-xl xl:w-[70%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
@@ -62,16 +62,16 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex absolute bottom-0 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
+      <div className="flex absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
         <Image
           width={46}
           height={65}
           alt=""
-          className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
+          className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
           src={"/avaZima.svg"}
         />
       </div>
-      <div className="flex absolute bottom-0  px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-end">
+      <div className="flex absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-end">
         <Image
           width={46}
           height={65}
