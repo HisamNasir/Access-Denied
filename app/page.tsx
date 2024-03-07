@@ -29,19 +29,19 @@ export default function Home() {
           </div>
         </div>
         <div className=" flex max-md:flex-col justify-center items-center gap-4">
-          <div className=" space-y-[10px] sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px] ">
-            <p className="  leading-6 sm:leading-8  xl:leading-[40px] 2xl:leading-[48px]  text-xs lg:text-sm xl:text-md 2xl:text-xl">
+          <div className=" space-y-[15px] sm:space-y-[25px] md:space-y-[30px] lg:space-y-[35px] 2xl:space-y-[70px] ">
+            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm xl:text-md 2xl:text-xl">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
-            <p className=" opacity-50 text-xs lg:text-md xl:text-lg 2xl:text-xl">
+            <p className=" opacity-50 text-xs lg:text-sm 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="  leading-6 sm:leading-8  xl:leading-[40px] 2xl:leading-[48px]  text-xs lg:text-sm xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl xl:w-[70%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="  leading-6 sm:leading-8  xl:leading-[40px] 2xl:leading-[48px]  text-xs lg:text-sm xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 xl:leading-8 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl xl:w-[70%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
@@ -57,7 +57,7 @@ export default function Home() {
             width={46}
             height={65}
             alt=""
-            className=" h-28 md:h-36 lg:h-56 xl:h-64 2xl:h-[300px] w-auto "
+            className=" h-28 md:h-36 lg:h-48 xl:h-58 2xl:h-[300px] w-auto "
             src={"/warning.svg"}
           />
         </div>
