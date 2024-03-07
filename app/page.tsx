@@ -28,8 +28,8 @@ export default function Home() {
               Error Code: 661
             </p>
             <p className=" leading-8  xl:leading-[40px] 2xl:leading-[48px]  text-xs lg:text-sm xl:text-md 2xl:text-xl xl:w-[70%]">
-              YOUR IP ADDRESS INDICATES THAT YOU'RE ATTEMPTING TO ACCESS OUR
-              SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
+              YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
+              OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
             <p className=" leading-8  xl:leading-[40px] 2xl:leading-[48px]  text-xs lg:text-sm xl:text-md 2xl:text-xl xl:w-[70%]">
               Do you suspect that your IP address has been restricted in error?
