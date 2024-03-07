@@ -23,9 +23,9 @@ const Sidebar = () => {
         initial={{ x: isOpen ? "100%" : "0%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ type: "tween", duration: 0.3 }}
-        className="  h-screen fixed z-20 p-4  bg-opacity-90 bg-black text-white w-full  md:w-[50%]   right-0 top-0"
+        className="  h-screen fixed z-20 p-4  bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
       >
-        <div className=" relative font space-y-[10px] md:space-y-[15px] lg:space-y-[20px] 2xl:space-y-[30px] ">
+        <div className=" relative font space-y-[10px] md:space-y-[15px] lg:space-y-[20px] 2xl:space-y-[30px] h-[84vh]">
           <div className="flex justify-between items-center">
             <div className="space-y-[10px] md:space-y-[14px] lg:space-y-[14px] xl:space-y-[20px] 2xl:space-y-[48px]">
               <button
@@ -48,7 +48,7 @@ const Sidebar = () => {
               src={"/zima.svg"}
             />
           </div>
-          <div className="space-y-[10px] md:space-y-[15px] lg:space-y-[20px] 2xl:space-y-[30px] h-[75vh] overflow-scroll mr-8">
+          <div className="space-y-[10px] md:space-y-[15px] lg:space-y-[20px] 2xl:space-y-[30px] h-full overflow-scroll mr-8">
             <p className="leading-[18px]  text-[8px] 2xl:text-[10px] ">
               When an IP address is banned, it means that ZIMO SECURITY has
               restricted access from that particular IP address. This could
