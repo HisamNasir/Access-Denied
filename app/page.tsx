@@ -30,18 +30,18 @@ export default function Home() {
         </div>
         <div className=" flex max-md:flex-col justify-center items-center gap-4">
           <div className=" space-y-[15px] sm:space-y-[25px] md:space-y-[30px] lg:space-y-[35px] 2xl:space-y-[70px] ">
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl">
+            <p className=" max-sm:tracking-widestmax-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
             <p className=" opacity-50 text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link

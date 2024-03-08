@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <div className=" flex gap-0">
       <button
-        className=" 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl  opacity-50 hover:underline"
+        className="max-sm:tracking-widest 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl  opacity-50 hover:underline"
         onClick={toggleSidebar}
       >
         more information
