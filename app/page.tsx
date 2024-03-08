@@ -5,10 +5,10 @@ import Sidebar from "./ui/Sidebar";
 export default function Home() {
   return (
     <main>
-      <div className=" relative font px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
-        <div className=" md:flex space-y-2 justify-between">
+      <div className=" relative  font px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
+        <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
-            <h1 className=" sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
+            <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
               Access Denied
             </h1>
             <Image
@@ -19,7 +19,7 @@ export default function Home() {
               src={"/location.svg"}
             />
           </div>
-          <div className=" sm:space-y-2 text-[9px] lg:text-xs text-end ">
+          <div className="sm:space-y-2 text-[7px] lg:text-xs text-end ">
             <p>ID: 49f55e568bda4a399m21</p>
             <p>YOUR IP: 12.123.456.789</p>
             <p>
@@ -30,18 +30,18 @@ export default function Home() {
         </div>
         <div className=" flex max-md:flex-col justify-center items-center gap-4">
           <div className=" space-y-[15px] sm:space-y-[25px] md:space-y-[30px] lg:space-y-[35px] 2xl:space-y-[70px] ">
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs xl:text-md 2xl:text-xl">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
-            <p className=" opacity-50 text-xs lg:text-xs 2xl:text-xl ">
+            <p className=" opacity-50 text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-xs lg:text-xs 2xl:text-xl xl:w-[70%]">
+            <p className="  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
