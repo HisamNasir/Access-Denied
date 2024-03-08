@@ -4,8 +4,8 @@ import Sidebar from "./ui/Sidebar";
 
 export default function Home() {
   return (
-    <main>
-      <div className=" relative mb-12 lg:mb-20 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
+    <main className="h-screen flex flex-col justify-between">
+      <div className=" 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
             <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
@@ -62,8 +62,9 @@ export default function Home() {
           />
         </div>
       </div>
-      <footer className="flex bottom-0 fixed bg-white w-full">
-        <div className="flex mdabsolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
+      <footer className="grid grid-cols-2 lg:grid-cols-3 w-full">
+        <div className=" hidden lg:block"></div>
+        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center">
           <Image
             width={46}
             height={65}
@@ -72,7 +73,7 @@ export default function Home() {
             src={"/avaZima.svg"}
           />
         </div>
-        <div className="flex md:absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center md:justify-end">
+        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center lg:justify-end">
           <Image
             width={46}
             height={65}
