@@ -26,8 +26,8 @@ const Sidebar = () => {
         className="  h-full fixed z-20 p-4 2xl:px-8 bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
       >
         <div className=" relative font space-y-[10px] h-full lg:space-y-[15px] 2xl:space-y-[34px]">
-          <div className="flex justify-between items-center">
-            <div className="space-y-[6px] md:space-y-[8px] lg:space-y-[10px] xl:space-y-[20px] 2xl:space-y-[34px]">
+          <div className="flex justify-between items-center pb-4 lg:pb-8">
+            <div className="space-y-[8px] md:space-y-[10px] lg:space-y-[12px] xl:space-y-[20px] 2xl:space-y-[34px]">
               <button
                 className=" 2xl:leading-[48px]  text-xs lg:text-sm 2xl:text-xl hover:underline"
                 onClick={toggleSidebar}
@@ -49,12 +49,14 @@ const Sidebar = () => {
             />
           </div>
           <div className=" h-[87%] relative">
-            <div className=" pb-2 space-y-[10px] md:space-y-[15px] 2xl:space-y-[32px] relative mr-8 max-h-full overflow-hidden overflow-y-scroll scrollbar-hide">
-              <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-[8px] lg:text-[9px] 2xl:text-[10px] h-full">
-                When an IP address is banned, it means that ZIMO SECURITY has
-                restricted access from that particular IP address. This could
-                happen for several reasons:
-              </p>
+            <div className="flex flex-col justify-between pb-2 space-y-[10px] md:space-y-[15px] 2xl:space-y-[32px] relative mr-8 h-full overflow-hidden overflow-y-scroll scrollbar-hide">
+              <div>
+                <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-[8px] lg:text-[9px] 2xl:text-[10px] h-full">
+                  When an IP address is banned, it means that ZIMO SECURITY has
+                  restricted access from that particular IP address. This could
+                  happen for several reasons:
+                </p>
+              </div>
               <div className="space-y-[1px] sm:space-y-[8px] md:space-y-[10px] lg:space-y-[15px]">
                 <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px]  text-[8px] lg:text-[9px] 2xl:text-[10px] ">
                   Violation of Terms of Service:
@@ -124,7 +126,7 @@ const Sidebar = () => {
                 unblock@zimogroup.org
               </p>
             </div>
-            <p className=" absolute bottom-0 right-0 leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] bg-opacity-90 bg-black shadow-lg">
+            <p className=" leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] bg-opacity-90">
               YOUR IP: 12.123.456.789
             </p>
           </div>
