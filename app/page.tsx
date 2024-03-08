@@ -62,7 +62,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="md:absolute flex relative">
+      <div className="flex relative">
         <div className="flex mdabsolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
           <Image
             width={46}
@@ -72,7 +72,7 @@ export default function Home() {
             src={"/avaZima.svg"}
           />
         </div>
-        <div className="flex md:absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center md::justify-end">
+        <div className="flex md:absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center md:justify-end">
           <Image
             width={46}
             height={65}
