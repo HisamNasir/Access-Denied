@@ -5,7 +5,7 @@ import Sidebar from "./ui/Sidebar";
 export default function Home() {
   return (
     <main>
-      <div className=" relative lg:mb-20 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
+      <div className=" relative mb-12 lg:mb-20 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
             <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
