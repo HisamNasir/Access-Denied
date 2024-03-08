@@ -5,7 +5,7 @@ import Sidebar from "./ui/Sidebar";
 export default function Home() {
   return (
     <main className="h-screen flex flex-col justify-between">
-      <div className=" 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-5 lg:px-12 lg:py-6 2xl:px-20 2xl:py-12 sm:space-y-[38px] lg:space-y-[40px] 2xl:space-y-[70px]">
+      <div className="  px-6 sm:px-12 py-4 md:px-16 md:py-5 lg:px-12 lg:py-6 2xl:px-20 2xl:py-12 sm:space-y-[38px] lg:space-y-[40px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
             <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
@@ -37,11 +37,11 @@ export default function Home() {
             <p className=" opacity-50 text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[90%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[70%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[90%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
