@@ -62,23 +62,25 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="flex absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
-        <Image
-          width={46}
-          height={65}
-          alt=""
-          className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
-          src={"/avaZima.svg"}
-        />
-      </div>
-      <div className="flex absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-end">
-        <Image
-          width={46}
-          height={65}
-          alt=""
-          className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
-          src={"/zima.svg"}
-        />
+      <div className="md:absolute flex relative">
+        <div className="flex mdabsolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-center">
+          <Image
+            width={46}
+            height={65}
+            alt=""
+            className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
+            src={"/avaZima.svg"}
+          />
+        </div>
+        <div className="flex md:absolute bottom-0 -z-50 px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full sm:justify-end">
+          <Image
+            width={46}
+            height={65}
+            alt=""
+            className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
+            src={"/zima.svg"}
+          />
+        </div>
       </div>
     </main>
   );
