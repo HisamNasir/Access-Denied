@@ -7,7 +7,7 @@ export default function Home() {
     <main className="h-screen flex flex-col justify-between">
       <div className="  px-6 sm:px-12 py-4 md:px-16 md:py-5 lg:px-12 lg:py-6 2xl:px-20 2xl:py-12 sm:space-y-[38px] lg:space-y-[40px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
-          <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
+          <div className=" max-h-min flex items-center gap-2 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
             <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
               Access Denied
             </h1>
@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       <footer className="grid grid-cols-2 lg:grid-cols-3 w-full">
         <div className=" hidden lg:block"></div>
-        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center">
+        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full lg:justify-center">
           <Image
             width={46}
             height={65}
@@ -73,7 +73,7 @@ export default function Home() {
             src={"/avaZima.svg"}
           />
         </div>
-        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-center lg:justify-end">
+        <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-end lg:justify-end">
           <Image
             width={46}
             height={65}
