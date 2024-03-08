@@ -5,7 +5,7 @@ import Sidebar from "./ui/Sidebar";
 export default function Home() {
   return (
     <main className="h-screen flex flex-col justify-between">
-      <div className=" 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
+      <div className=" 2xl:mb-32 px-6 sm:px-12 py-4 md:px-16 md:py-5 lg:px-18 lg:py-6 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
             <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
@@ -29,7 +29,7 @@ export default function Home() {
           </div>
         </div>
         <div className=" flex max-md:flex-col justify-center items-center gap-4">
-          <div className=" space-y-[15px] sm:space-y-[25px] md:space-y-[30px] lg:space-y-[35px] 2xl:space-y-[70px] ">
+          <div className=" space-y-[15px] sm:space-y-[22px] md:space-y-[26px] lg:space-y-[30px] 2xl:space-y-[70px] ">
             <p className=" max-sm:tracking-widestmax-sm:tracking-widest  leading-5 md:leading-8 lg:leading-10 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
