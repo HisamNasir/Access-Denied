@@ -37,11 +37,11 @@ export default function Home() {
             <p className=" opacity-50 text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[90%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl lg:w-[65%] 2xl:w-[80%]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl xl:w-[90%]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl lg:w-[65%] 2xl:w-[80%]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
@@ -69,7 +69,7 @@ export default function Home() {
             width={46}
             height={65}
             alt=""
-            className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
+            className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[40px] 2xl:h-[50px] w-auto "
             src={"/avaZima.svg"}
           />
         </div>
@@ -78,7 +78,7 @@ export default function Home() {
             width={46}
             height={65}
             alt=""
-            className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[45px] 2xl:h-[50px] w-auto "
+            className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[40px] 2xl:h-[50px] w-auto "
             src={"/zima.svg"}
           />
         </div>
