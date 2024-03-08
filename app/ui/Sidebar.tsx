@@ -49,7 +49,7 @@ const Sidebar = () => {
             />
           </div>
           <div className=" h-[87%] relative">
-            <div className=" space-y-[10px] md:space-y-[15px] 2xl:space-y-[32px] relative mr-8 max-h-full overflow-hidden">
+            <div className=" pb-2 space-y-[10px] md:space-y-[15px] 2xl:space-y-[32px] relative mr-8 max-h-full overflow-hidden overflow-y-scroll scrollbar-hide">
               <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-[8px] lg:text-[9px] 2xl:text-[10px] h-full">
                 When an IP address is banned, it means that ZIMO SECURITY has
                 restricted access from that particular IP address. This could
@@ -124,7 +124,7 @@ const Sidebar = () => {
                 unblock@zimogroup.org
               </p>
             </div>
-            <p className=" absolute bottom-0 right-0 leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] ">
+            <p className=" absolute bottom-0 right-0 leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] bg-opacity-90 bg-black shadow-lg">
               YOUR IP: 12.123.456.789
             </p>
           </div>
