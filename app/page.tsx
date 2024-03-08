@@ -8,18 +8,18 @@ export default function Home() {
       <div className=" relative  font px-6 sm:px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 sm:space-y-[38px] md:space-y-[48px] lg:space-y-[45px] 2xl:space-y-[70px]">
         <div className=" sm:flex space-y-6 max-sm:mb-6 justify-between">
           <div className=" max-h-min flex items-center gap-10 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
-            <h1 className=" text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
+            <h1 className=" text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-[65px]">
               Access Denied
             </h1>
             <Image
               width={46}
               height={65}
               alt=""
-              className=" h-[30px] md:h-9 lg:h-12 xl:h-[60px] 2xl:h-[65px] w-auto "
+              className=" h-[20px] sm:h-[30px] md:h-9 lg:h-12 xl:h-[60px] 2xl:h-[65px] w-auto "
               src={"/location.svg"}
             />
           </div>
-          <div className="sm:space-y-2 text-[7px] lg:text-xs text-end ">
+          <div className="sm:space-y-2 text-[7px] lg:text-xs sm:text-end ">
             <p>ID: 49f55e568bda4a399m21</p>
             <p>YOUR IP: 12.123.456.789</p>
             <p>
