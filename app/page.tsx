@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className=" flex max-md:flex-col justify-between items-center gap-4">
           <div className=" space-y-[15px] sm:space-y-[22px] md:space-y-[26px] lg:space-y-[30px] 2xl:space-y-[50px] 2xl:px-[23px]">
-            <p className=" max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
+            <p className=" font-normal max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
