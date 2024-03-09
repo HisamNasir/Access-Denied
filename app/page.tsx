@@ -9,7 +9,7 @@ export default function Home() {
       <div className="  px-6 pt-8 md:px-10 2xl:px-[50px] 2xl:pt-12 sm:space-y-[18px] lg:space-y-[24px] 2xl:space-y-[50px]">
         <div className=" sm:flex max-sm:space-y-6 max-sm:mb-6 justify-between items-end">
           <div className=" max-h-min flex items-center gap-2 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
-            <h1 className=" text-xl sm:text-3xl lg:text-5xl xl:text-6xl 2xl:text-[85px] 2xl:px-[23px]">
+            <h1 className=" text-xl sm:text-3xl lg:text-5xl xl:text-5xl 2xl:text-[85px] 2xl:px-[23px]">
               Access Denied
             </h1>
             <img
@@ -29,19 +29,19 @@ export default function Home() {
           </p>
         </div>
         <div className=" flex max-md:flex-col justify-between items-center gap-4">
-          <div className=" space-y-[15px] sm:space-y-[22px] md:space-y-[26px] lg:space-y-[30px] 2xl:space-y-[50px] 2xl:px-[23px]">
-            <p className=" font-normal max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
+          <div className=" space-y-[18px] sm:space-y-[22px] md:space-y-[26px] lg:space-y-[30px] 2xl:space-y-[59px] 2xl:px-[23px]">
+            <p className=" font-norma max-sm:tracking-widest leading-5 md:leading-8 lg:leading-[32px] 2xl:leading-[59px] text-[9px] md:text-[11px] 2xl:text-xl ">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
-            <p className=" opacity-50 text-[9px] md:text-xs xl:text-md 2xl:text-xl ">
+            <p className=" opacity-50 text-[9px] md:text-[11px] xl:text-md 2xl:text-xl ">
               Error Code: 661
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl lg:w-[65%] 2xl:w-[43vw]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-9 2xl:leading-[59px] text-[9px] md:text-[11px] 2xl:text-xl lg:w-[65%] 2xl:w-[43vw]">
               YOUR IP ADDRESS INDICATES THAT YOU&apos;RE ATTEMPTING TO ACCESS
               OUR SERVICES. YOU ARE PROHIBITED FROM USING THIS PLATFORM.
             </p>
-            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-8 2xl:leading-[48px] text-[9px] md:text-xs xl:text-md 2xl:text-xl lg:w-[65%] 2xl:w-[43vw]">
+            <p className="max-sm:tracking-widest  leading-5 md:leading-8 lg:leading-9 2xl:leading-[59px] text-[9px] md:text-[11px] 2xl:text-xl lg:w-[65%] 2xl:w-[43vw]">
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
