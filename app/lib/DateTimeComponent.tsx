@@ -1,9 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-
 const DateTimeComponent = () => {
   const [dateTime, setDateTime] = useState("");
-
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date();
@@ -19,8 +17,6 @@ const DateTimeComponent = () => {
 
     return () => clearInterval(interval);
   }, []);
-
   return <div>{dateTime}</div>;
 };
-
 export default DateTimeComponent;
