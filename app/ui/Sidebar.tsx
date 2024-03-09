@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import IpAddress from "../lib/IpAddress";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +14,7 @@ const Sidebar = () => {
   return (
     <div className=" flex gap-0">
       <button
-        className="max-sm:tracking-widest 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl  opacity-50 hover:underline"
+        className="max-sm:tracking-widest 2xl:leading-[48px] text-xs lg:text-sm 2xl:text-xl  opacity-50 hover:opacity-100 transition-opacity duration-200"
         onClick={toggleSidebar}
       >
         more information
@@ -21,13 +23,13 @@ const Sidebar = () => {
         initial={{ x: isOpen ? "0%" : "100%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ type: "tween", duration: 0.3 }}
-        className="  h-full fixed z-20 p-4 2xl:px-8 bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
+        className="  h-full fixed z-20 p-4 2xl:px-7  bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
       >
-        <div className=" relative font space-y-[10px] h-full lg:space-y-[15px] 2xl:space-y-[34px]">
+        <div className=" relative pr-4  space-y-[10px] h-full lg:space-y-[15px] 2xl:space-y-[34px]">
           <div className="flex justify-between items-center">
             <div className="space-y-[8px] md:space-y-[10px] lg:space-y-[12px] xl:space-y-[20px] 2xl:space-y-[34px]">
               <button
-                className=" 2xl:leading-[48px]  text-xs lg:text-sm 2xl:text-xl hover:underline"
+                className=" 2xl:leading-[48px]  text-xs lg:text-sm 2xl:text-xl hover:opacity-50 transition-opacity duration-200"
                 onClick={toggleSidebar}
               >
                 Close
@@ -40,8 +42,8 @@ const Sidebar = () => {
             </div>
             <img alt="" className="invert h-[50px] w-auto " src={"/zima.svg"} />
           </div>
-          <div className=" h-[87%] relative">
-            <div className="flex flex-col justify-between pb-2 space-y-[10px] relative mr-8 h-full overflow-hidden overflow-y-scroll scrollbar-hide">
+          <div className=" h-[84%] relative">
+            <div className="flex flex-col justify-between space-y-[10px] relative mr-8 2xl:mr-[100px] overflow-hidden overflow-y-scroll scrollbar-hide h-[98%]">
               <div>
                 <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-[8px] lg:text-[9px] 2xl:text-[10px] h-full">
                   When an IP address is banned, it means that ZIMO SECURITY has
@@ -114,13 +116,16 @@ const Sidebar = () => {
                 or take steps to resolve the issue that led to the ban in the
                 first place
               </p>
-              <p className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px]  text-[8px] lg:text-[9px] 2xl:text-[10px] ">
+              <Link
+                href={"mailto:unblock@zimogroup.org"}
+                className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] flex max-w-max opacity-100 hover:opacity-50 transition-opacity duration-200  text-[8px] lg:text-[9px] 2xl:text-[10px] "
+              >
                 unblock@zimogroup.org
-              </p>
-              <p className=" leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] bg-opacity-90">
-                YOUR IP: 12.123.456.789
-              </p>
+              </Link>
             </div>
+            <p className=" leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] text-end  text-[8px] lg:text-[9px] 2xl:text-[10px] bg-opacity-90 tracking-[0.103em]">
+              <IpAddress />
+            </p>
           </div>
         </div>
       </motion.div>

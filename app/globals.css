@@ -23,6 +23,23 @@ h1,h2,h3{
 button,p{
   
   word-spacing: 3px;
-  letter-spacing: 0.24em;
+  letter-spacing: 0.10em;
 
+}
+@media (min-width: 640px) {
+  .md\:word-spacing-md {
+    word-spacing: 0.75rem; /* Adjust the spacing value for medium screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .lg\:word-spacing-lg {
+    word-spacing: 1rem; /* Adjust the spacing value for large screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .xl\:word-spacing-xl {
+    word-spacing: 2rem; /* Adjust the spacing value for extra large screens */
+  }
 }

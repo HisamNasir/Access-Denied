@@ -17,6 +17,6 @@ const DateTimeComponent = () => {
 
     return () => clearInterval(interval);
   }, []);
-  return <div>{dateTime}</div>;
+  return <>{dateTime}</>;
 };
 export default DateTimeComponent;
