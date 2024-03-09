@@ -20,7 +20,7 @@ const Sidebar = () => {
         more information
       </button>
       <motion.div
-        initial={{ x: isOpen ? "100%" : "0%" }}
+        initial={{ x: isOpen ? "0%" : "100%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ type: "tween", duration: 0.3 }}
         className="  h-full fixed z-20 p-4 2xl:px-8 bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
