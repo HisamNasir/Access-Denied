@@ -28,9 +28,9 @@ export default function Home() {
             </span>
           </p>
         </div>
-        <div className=" flex max-md:flex-col justify-between items-center gap-4">
+        <div className=" flex max-md:flex-col justify-between items-end gap-4">
           <div className=" space-y-[18px] sm:space-y-[22px] md:space-y-[26px] lg:space-y-[30px] 2xl:space-y-[59px] 2xl:px-[23px]">
-            <p className=" font-norma max-sm:tracking-widest leading-5 md:leading-8 lg:leading-[32px] 2xl:leading-[59px] text-[9px] md:text-[11px] 2xl:text-xl ">
+            <p className=" font-norma max-sm:tracking-widest leading-5 md:leading-8 lg:leading-9 2xl:leading-[59px] text-[9px] md:text-[11px] 2xl:text-xl ">
               YOUR IP ADDRESS HAS BEEN RESTRICTED AND IS CURRENTLY BANNED FROM
               USING OUR SERVICES.
             </p>
@@ -52,13 +52,15 @@ export default function Home() {
               </Link>
               .
             </p>
-            <Sidebar />
           </div>
           <img
             alt=""
             className=" h-28 md:h-36 lg:h-48 xl:h-58 2xl:h-[300px] w-auto xl:pr-24 "
             src={"/warning.svg"}
           />
+        </div>
+        <div className="px-6">
+          <Sidebar />
         </div>
       </div>
       <footer className="grid grid-cols-2 lg:grid-cols-3 w-full">
