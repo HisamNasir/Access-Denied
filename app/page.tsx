@@ -59,7 +59,7 @@ export default function Home() {
             src={"/warning.svg"}
           />
         </div>
-        <div className="xl:px-6">
+        <div className="2xl:px-6">
           <Sidebar />
         </div>
       </div>
