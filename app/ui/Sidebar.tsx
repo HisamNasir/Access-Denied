@@ -117,7 +117,7 @@ const Sidebar = () => {
                 first place
               </p>
               <Link
-                href={"mailto:unblock@zimogroup.org"}
+                href={"mailto:unblock@zimogroup.org?subject=Access%20Denied"}
                 className="leading-[10px] md:leading-[15px] xl:leading-[14px] 2xl:leading-[20px] flex max-w-max opacity-100 hover:opacity-50 transition-opacity duration-200  text-[8px] lg:text-[9px] 2xl:text-[10px] "
               >
                 unblock@zimogroup.org

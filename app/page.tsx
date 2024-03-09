@@ -45,7 +45,7 @@ export default function Home() {
               Do you suspect that your IP address has been restricted in error?
               If so, please contact us at{" "}
               <Link
-                href={"mailto:unblock@zimogroup.org"}
+                href={"mailto:unblock@zimogroup.org?subject=Access%20Denied"}
                 className=" opacity-50 hover:opacity-100 transition-opacity duration-200 "
               >
                 unblock@zimogroup.org
