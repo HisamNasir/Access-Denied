@@ -1,23 +1,26 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 
 const DateTimeComponent = () => {
-  const getCurrentDateTime = () => {
-    const now = new Date();
-    const date = now.toLocaleDateString("en-US", {
-      day: "2-digit",
-      month: "2-digit",
-      year: "numeric",
-    });
-    const time = now.toLocaleTimeString("en-US", {
-      hour12: false,
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-    });
-    return `${date} ${time}`;
-  };
+  const [dateTime, setDateTime] = useState("");
 
-  return <div>{getCurrentDateTime()}</div>;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const now = new Date();
+      const date = `${("0" + now.getDate()).slice(-2)}.${(
+        "0" +
+        (now.getMonth() + 1)
+      ).slice(-2)}.${now.getFullYear()}`;
+      const time = `${("0" + now.getHours()).slice(-2)}:${(
+        "0" + now.getMinutes()
+      ).slice(-2)}:${("0" + now.getSeconds()).slice(-2)}`;
+      setDateTime(`${date} ${time}`);
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return <div>{dateTime}</div>;
 };
 
 export default DateTimeComponent;

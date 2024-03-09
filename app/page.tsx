@@ -1,19 +1,8 @@
 import Link from "next/link";
 import Sidebar from "./ui/Sidebar";
+import DateTimeComponent from "./lib/DateTimeComponent";
 
 export default function Home() {
-  const getCurrentDateTime = () => {
-    const now = new Date();
-    const date = `${("0" + now.getDate()).slice(-2)}.${(
-      "0" +
-      (now.getMonth() + 1)
-    ).slice(-2)}.${now.getFullYear()}`;
-    const time = `${("0" + now.getHours()).slice(-2)}:${(
-      "0" + now.getMinutes()
-    ).slice(-2)}:${("0" + now.getSeconds()).slice(-2)}`;
-    return `${date} ${time}`;
-  };
-
   return (
     <main className="h-screen flex flex-col justify-between">
       <div className="  px-6 sm:px-12 py-4 md:px-10 2xl:px-20 2xl:py-12 sm:space-y-[18px] lg:space-y-[24px] 2xl:space-y-[70px]">
@@ -32,9 +21,7 @@ export default function Home() {
             <p>ID: 49f55e568bda4a399m21</p>
             <p>YOUR IP: 12.123.456.789</p>
             <p>
-              {getCurrentDateTime()}
-              {/* <span> 21.03.2024</span>
-              {"      "} <span>19:28:13</span> */}
+              <DateTimeComponent />
             </p>
           </div>
         </div>
