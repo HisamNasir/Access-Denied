@@ -1,8 +1,19 @@
-import Image from "next/image";
 import Link from "next/link";
 import Sidebar from "./ui/Sidebar";
 
 export default function Home() {
+  const getCurrentDateTime = () => {
+    const now = new Date();
+    const date = `${("0" + now.getDate()).slice(-2)}.${(
+      "0" +
+      (now.getMonth() + 1)
+    ).slice(-2)}.${now.getFullYear()}`;
+    const time = `${("0" + now.getHours()).slice(-2)}:${(
+      "0" + now.getMinutes()
+    ).slice(-2)}:${("0" + now.getSeconds()).slice(-2)}`;
+    return `${date} ${time}`;
+  };
+
   return (
     <main className="h-screen flex flex-col justify-between">
       <div className="  px-6 sm:px-12 py-4 md:px-10 2xl:px-20 2xl:py-12 sm:space-y-[18px] lg:space-y-[24px] 2xl:space-y-[70px]">
@@ -11,9 +22,7 @@ export default function Home() {
             <h1 className=" text-xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[65px]">
               Access Denied
             </h1>
-            <Image
-              width={46}
-              height={65}
+            <img
               alt=""
               className=" h-[20px] sm:h-[30px] md:h-9 lg:h-12 xl:h-[44px] 2xl:h-[65px] w-auto "
               src={"/location.svg"}
@@ -23,8 +32,9 @@ export default function Home() {
             <p>ID: 49f55e568bda4a399m21</p>
             <p>YOUR IP: 12.123.456.789</p>
             <p>
-              <span> 21.03.2024</span>
-              {"      "} <span>19:28:13</span>
+              {getCurrentDateTime()}
+              {/* <span> 21.03.2024</span>
+              {"      "} <span>19:28:13</span> */}
             </p>
           </div>
         </div>
@@ -53,9 +63,7 @@ export default function Home() {
             </p>
             <Sidebar />
           </div>
-          <Image
-            width={46}
-            height={65}
+          <img
             alt=""
             className=" h-28 md:h-36 lg:h-48 xl:h-58 2xl:h-[300px] w-auto xl:pr-32 2xl:pr-40"
             src={"/warning.svg"}
@@ -65,18 +73,14 @@ export default function Home() {
       <footer className="grid grid-cols-2 lg:grid-cols-3 w-full">
         <div className=" hidden lg:block"></div>
         <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full lg:justify-center">
-          <Image
-            width={46}
-            height={65}
+          <img
             alt=""
             className=" h-[20px]  md:h-[35px] lg:h-[40px] xl:h-[40px] 2xl:h-[50px] w-auto "
             src={"/avaZima.svg"}
           />
         </div>
         <div className="flex px-12 py-4 md:px-16 md:py-8 lg:px-18 lg:py-10 2xl:px-20 2xl:py-12 w-full justify-end lg:justify-end">
-          <Image
-            width={46}
-            height={65}
+          <img
             alt=""
             className=" h-[20px] md:h-[35px] lg:h-[40px] xl:h-[40px] 2xl:h-[50px] w-auto "
             src={"/zima.svg"}

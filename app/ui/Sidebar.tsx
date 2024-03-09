@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import Link from "next/link";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,13 +38,7 @@ const Sidebar = () => {
                 </p>
               </div>
             </div>
-            <Image
-              width={46}
-              height={65}
-              alt=""
-              className="invert h-[50px] w-auto "
-              src={"/zima.svg"}
-            />
+            <img alt="" className="invert h-[50px] w-auto " src={"/zima.svg"} />
           </div>
           <div className=" h-[87%] relative">
             <div className="flex flex-col justify-between pb-2 space-y-[10px] relative mr-8 h-full overflow-hidden overflow-y-scroll scrollbar-hide">
