@@ -23,7 +23,7 @@ const Sidebar = () => {
         initial={{ x: isOpen ? "0%" : "100%" }}
         animate={{ x: isOpen ? "0%" : "100%" }}
         transition={{ type: "tween", duration: 0.3 }}
-        className=" min-h-screen h-full fixed z-20 p-4 2xl:px-7  bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
+        className=" min-h-screen max-h-screen  fixed z-20 p-4 2xl:px-7  bg-opacity-90 bg-black text-white w-full  md:w-[50%] right-0 top-0"
       >
         <div className=" relative pr-4  space-y-[10px] h-full lg:space-y-[15px] 2xl:space-y-[34px]">
           <div className="flex justify-between items-center">
