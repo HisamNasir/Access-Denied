@@ -9,7 +9,7 @@ export default function Home() {
       <div className="  px-6 pt-8 md:px-10 2xl:px-[50px] 2xl:pt-12 sm:space-y-[18px] lg:space-y-[24px] 2xl:space-y-[50px]">
         <div className=" sm:flex max-sm:space-y-6 max-sm:mb-6 justify-between items-end">
           <div className=" max-h-min flex items-center gap-2 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
-            <h1 className=" text-xl sm:text-3xl lg:text-5xl xl:text-5xl 2xl:text-[85px] 2xl:px-[23px]">
+            <h1 className=" text-xl sm:text-3xl lg:text-5xl xl:text-5xl 2xl:text-[85px] 2xl:pl-[23px]">
               Access Denied
             </h1>
             <img
