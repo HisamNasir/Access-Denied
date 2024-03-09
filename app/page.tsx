@@ -5,7 +5,7 @@ import IpAddress from "./lib/IpAddress";
 
 export default function Home() {
   return (
-    <main className="h-screen flex flex-col justify-between">
+    <main className="min-h-screen h-full flex flex-col justify-between">
       <div className="  px-6 pt-8 md:px-10 2xl:px-[50px] 2xl:pt-12 sm:space-y-[18px] lg:space-y-[24px] 2xl:space-y-[50px]">
         <div className=" sm:flex max-sm:space-y-6 max-sm:mb-6 justify-between items-end">
           <div className=" max-h-min flex items-center gap-2 md:gap-12 lg:gap-16 xl:gap-20 2xl:gap-[100px]">
