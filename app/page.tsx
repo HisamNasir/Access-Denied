@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <img
             alt=""
-            className=" h-28 md:h-36 lg:h-48 xl:h-58 2xl:h-[300px] w-auto m-8 xl:p-24 "
+            className=" h-28 md:h-36 lg:h-48 xl:h-58 2xl:h-[300px] w-auto max-lg:m-8 xl:p-24 "
             src={"/warning.svg"}
           />
         </div>
